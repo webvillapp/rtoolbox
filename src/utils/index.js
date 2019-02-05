@@ -1,0 +1,1 @@
+export { componentMaker } from './componentMaker';

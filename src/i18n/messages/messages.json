@@ -1,0 +1,147 @@
+[
+  {
+    "id": "footer.company",
+    "defaultMessage": "Company",
+    "filepath": "src/components/Footer/CompanyInfo/index.js"
+  },
+  {
+    "id": "footer.address",
+    "defaultMessage": "Adres firmy 123",
+    "filepath": "src/components/Footer/CompanyInfo/index.js"
+  },
+  {
+    "id": "footer.krs",
+    "defaultMessage": "KRS: 34534342",
+    "filepath": "src/components/Footer/CompanyInfo/index.js"
+  },
+  {
+    "id": "footer.regon",
+    "defaultMessage": "REGON: 324523523",
+    "filepath": "src/components/Footer/CompanyInfo/index.js"
+  },
+  {
+    "id": "footer.nip",
+    "defaultMessage": "NIP: 423545432",
+    "filepath": "src/components/Footer/CompanyInfo/index.js"
+  },
+  {
+    "id": "footer.terms",
+    "defaultMessage": "terms",
+    "filepath": "src/components/Footer/Terms/index.js"
+  },
+  {
+    "id": "footer.conditions",
+    "defaultMessage": "conditions of use",
+    "filepath": "src/components/Footer/Terms/index.js"
+  },
+  {
+    "id": "footer.copyright",
+    "defaultMessage": "Copyright © 2019 Company",
+    "filepath": "src/components/Footer/Terms/index.js"
+  },
+  {
+    "id": "searchbox.placeholder",
+    "defaultMessage": "Szukaj...",
+    "filepath": "src/components/Header/SearchBox/index.js"
+  },
+  {
+    "id": "filter.placeholder",
+    "defaultMessage": "Filtruj...",
+    "filepath": "src/components/Main/Sidebar/DynamicFilter/index.js"
+  },
+  {
+    "id": "filter.btnSwitch",
+    "defaultMessage": "Przełącz typ filtra",
+    "filepath": "src/components/Main/Sidebar/DynamicFilter/index.js"
+  },
+  {
+    "id": "filter.labelType",
+    "defaultMessage": "Typ filtra:",
+    "filepath": "src/components/Main/Sidebar/DynamicFilter/index.js"
+  },
+  {
+    "id": "filter.byLinks",
+    "defaultMessage": "Linki",
+    "filepath": "src/components/Main/Sidebar/DynamicFilter/index.js"
+  },
+  {
+    "id": "filter.byCategories",
+    "defaultMessage": "Kategorie",
+    "filepath": "src/components/Main/Sidebar/DynamicFilter/index.js"
+  },
+  {
+    "id": "categories.fora",
+    "defaultMessage": "Fora Dyskusyjne",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "categories.fora.forumBudownictwa",
+    "defaultMessage": "Forum Budownictwa",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "categories.fora.forumInstalacji",
+    "defaultMessage": "Forum Instalacji",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "categories.fora.forumNieruchomosci",
+    "defaultMessage": "Forum Nieruchomości",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "categories.fora.forumNowosci",
+    "defaultMessage": "Forum Nowości",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "categories.projekty",
+    "defaultMessage": "Projekty",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "categories.spolki",
+    "defaultMessage": "Spółki",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "categories.zasoby",
+    "defaultMessage": "Zasoby O365",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "categories.wazne",
+    "defaultMessage": "Ważne",
+    "filepath": "src/layouts/Toolbox.js"
+  },
+  {
+    "id": "routes.glowna",
+    "defaultMessage": "Strona Główna",
+    "filepath": "src/routes/index.js"
+  },
+  {
+    "id": "routes.wiadomosci",
+    "defaultMessage": "Wiadommości",
+    "filepath": "src/routes/index.js"
+  },
+  {
+    "id": "routes.departamenty",
+    "defaultMessage": "Departamenty",
+    "filepath": "src/routes/index.js"
+  },
+  {
+    "id": "routes.niezbednik",
+    "defaultMessage": "Niezbędnik",
+    "filepath": "src/routes/index.js"
+  },
+  {
+    "id": "routes.ogloszenia",
+    "defaultMessage": "Ogłoszenia",
+    "filepath": "src/routes/index.js"
+  },
+  {
+    "id": "routes.sekcje",
+    "defaultMessage": "Sekcje",
+    "filepath": "src/routes/index.js"
+  }
+]

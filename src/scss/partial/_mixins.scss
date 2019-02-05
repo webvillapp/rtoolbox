@@ -1,0 +1,52 @@
+/* ----------------------------------------------------------------------------
+* Mixins
+* ------------------------------------------------------------------------- */
+@mixin box-shadow($shadows...) {
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+}
+@mixin border-radius($radius...) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+        -ms-border-radius: $radius;
+            border-radius: $radius;
+}
+@mixin border-radius-shadow {
+    @include box-shadow(0 0 4px 1px #c5c5c5);
+    @include border-radius(10px);
+    border: 1px solid $bc_basic;
+}
+@mixin background-gradient {
+    background: #efefef; /* Old browsers */
+    background: -moz-linear-gradient(top, #efefef 0%, #fdfdfd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #efefef 0%,#fdfdfd 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #efefef 0%,#fdfdfd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#fdfdfd',GradientType=0 ); /* IE6-9 */
+  }
+@mixin background-gradient-deg {
+    background: #fbfbfb;
+    background: -moz-linear-gradient(-45deg, #fbfbfb 0%, #f1f1f1 100%);
+    background: -webkit-linear-gradient(-45deg, #fbfbfb 0%,#f1f1f1 100%);
+    background: linear-gradient(135deg, #fbfbfb 0%,#f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#f1f1f1',GradientType=1 );
+}
+@mixin transition-default {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+@mixin transition-further {
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+@mixin transition-slide {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all .3s ease-in-out;
+    transform-origin: left top;
+}

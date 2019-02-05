@@ -1,17 +1,31 @@
 {
-  "name": "rtoolbox",
+  "name": "rtb1",
   "version": "0.1.0",
+  "homepage": "https://github.com/webvillapp/rtoolbox",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2"
+    "react-intl": "^2.8.0",
+    "react-intl-cra": "^0.3.4",
+    "react-intl-translations-manager": "^5.0.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "extract:messages": "react-intl-cra \"src/**/*.{js,jsx}\" -o \"src/i18n/messages/messages.json\"",
+    "manage:translations": "node ./translationRunner.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

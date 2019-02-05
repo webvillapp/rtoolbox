@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/webvillapp/rtoolbox/precache-manifest.a35b1007b951f69d05b7d614bf9944b7.js"
+  "/rtoolbox/precache-manifest.a24f700659be4dcbe5cc89e8d99cd4c3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/webvillapp/rtoolbox/index.html", {
+workbox.routing.registerNavigationRoute("/rtoolbox/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

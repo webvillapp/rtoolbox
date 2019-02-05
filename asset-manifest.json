@@ -1,7 +1,7 @@
 {
   "main.css": "/rtoolbox/static/css/main.0a451ead.chunk.css",
-  "main.js": "/rtoolbox/static/js/main.70b7d98d.chunk.js",
-  "main.js.map": "/rtoolbox/static/js/main.70b7d98d.chunk.js.map",
+  "main.js": "/rtoolbox/static/js/main.ddc7a54b.chunk.js",
+  "main.js.map": "/rtoolbox/static/js/main.ddc7a54b.chunk.js.map",
   "static/js/1.13f3caa7.chunk.js": "/rtoolbox/static/js/1.13f3caa7.chunk.js",
   "static/js/1.13f3caa7.chunk.js.map": "/rtoolbox/static/js/1.13f3caa7.chunk.js.map",
   "runtime~main.js": "/rtoolbox/static/js/runtime~main.b6ca867b.js",
@@ -10,6 +10,6 @@
   "static/media/logo.svg": "/rtoolbox/static/media/logo.3aa13522.svg",
   "static/media/main.scss": "/rtoolbox/static/media/bg.bd87017a.jpg",
   "index.html": "/rtoolbox/index.html",
-  "precache-manifest.57981b7c219d8da426a76e851e6f81d3.js": "/rtoolbox/precache-manifest.57981b7c219d8da426a76e851e6f81d3.js",
+  "precache-manifest.6200759fff9ba61aef83d098dcf7fc63.js": "/rtoolbox/precache-manifest.6200759fff9ba61aef83d098dcf7fc63.js",
   "service-worker.js": "/rtoolbox/service-worker.js"
 }
